@@ -41,13 +41,14 @@ const Layout = ({ children }: Props) => {
     <>
       <Header />
       <main>
-        <div className="text-right">
+        {/* <div className="text-right">
           <LocaleSwitch />
         </div>
         <div className="mt-6">
           <NavBar />
         </div>
-        <div className="mt-6">{children}</div>
+        <div className="mt-6">{children}</div> */}
+        {children}
       </main>
       <Footer />
     </>
